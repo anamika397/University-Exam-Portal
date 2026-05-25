@@ -1,5 +1,53 @@
-<h2>Form Submitted Successfully!</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+
+    <style>
+
+        body{
+            background:#d4edda;
+            font-family:Arial;
+            text-align:center;
+            padding-top:150px;
+        }
+
+        .success-box{
+            background:white;
+            width:400px;
+            margin:auto;
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0px 0px 15px gray;
+        }
+
+        h1{
+            color:green;
+        }
+
+        button{
+            padding:12px 20px;
+            background:#007bff;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="success-box">
+
+<h1>Form Submitted Successfully!</h1>
 
 <a href="{% url 'dashboard' %}">
     <button>Back to Dashboard</button>
 </a>
+
+</div>
+
+</body>
+</html>
